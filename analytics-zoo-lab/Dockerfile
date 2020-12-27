@@ -33,6 +33,8 @@ RUN pip install jupyterlab
 
 RUN pip install tensorflow
 RUN pip install keras
+RUN pip install -U keras-tuner
+RUN pip install autokeras
 
 RUN pip install PyWavelets
 

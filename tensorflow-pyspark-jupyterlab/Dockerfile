@@ -30,7 +30,9 @@ RUN \
   pip install jupyterlab && \
   pip install tensorflow && \
   pip install keras && \
-  pip install pyspark 
+  pip install pyspark && \
+  pip install -U keras-tuner && \
+  pip install autokeras
 
 EXPOSE 8888
 VOLUME /workspace
